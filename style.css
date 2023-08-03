@@ -5,6 +5,7 @@ body {
 
 .nav {
     grid-column: 2 / 4;
+    margin-bottom: 2rem;
 }
 
 .nav > ul {
@@ -39,7 +40,7 @@ a:hover {
 section {
     margin: 1rem 0rem;
     grid-column: 2 / 4;
-    margin: 1rem 0rem;
+    margin: 3rem 0rem;
 }
 
 #hero {
