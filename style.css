@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-size: medium;
 }
 
 section, .nav {
@@ -15,6 +16,10 @@ section, .nav {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav a {
@@ -35,7 +40,7 @@ section, .nav {
 }
 
 .container {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -45,9 +50,22 @@ section {
     margin: 3rem 0rem;
 }
 
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.item img {
+    height: 10rem;
+    width: 10rem;
+}
+
 #hero {
     display: flex;
     margin: 0rem 1rem;
+    gap: 3rem;
 }
 
 #face {
@@ -56,5 +74,9 @@ section {
 }
 
 #name, #sub {
+    text-align: center;
+}
+
+#socials {
     text-align: center;
 }
