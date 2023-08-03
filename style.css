@@ -3,8 +3,11 @@ body {
     margin: 0px;
 }
 
+section, .nav {
+    grid-column: 3 / span 6;
+}
+
 .nav {
-    grid-column: 2 / 4;
     margin-bottom: 2rem;
 }
 
@@ -14,7 +17,7 @@ body {
     justify-content: space-evenly;
 }
 
-a {
+.nav a {
     background-color: white;
     border: 2px solid black;
     text-decoration: none;
@@ -34,12 +37,11 @@ a:hover {
 .container {
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 section {
     margin: 1rem 0rem;
-    grid-column: 2 / 4;
     margin: 3rem 0rem;
 }
 
