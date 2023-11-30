@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Aman Agarwal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" 
+href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" 
+href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+b {color: black}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+</style>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right 
+w3-padding-large w3-hover-white w3-large w3-white" 
+href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation 
+Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large 
+w3-white"></a>
+    <a href=index.html class="w3-bar-item w3-button w3-hide-small 
+w3-padding-large w3-hover-white">About</a>
+<a href=projects.html class="w3-bar-item w3-button w3-hide-small 
+w3-padding-large w3-hover-white">Projects</a>
+<!--
+    <a href=blog.html class="w3-bar-item w3-button w3-hide-small 
+w3-padding-large w3-hover-white">Blog</a> -->
+</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large 
+w3-hide-medium w3-large">
+    <a href=index.html class="w3-bar-item w3-button 
+w3-padding-large">About</a>
+    <a href=projects.html class="w3-bar-item w3-button 
+w3-padding-large">Projects</a>
+<!--
+    <a href=blog.html class="w3-bar-item w3-button 
+w3-padding-large">Blog</a>
+-->
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-black w3-center" style="padding:128px 
+16px">
+</header>
+
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    </div>
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+
+          <div class="sidebar-module sidebar-module-inset">
+
+          </div>
+        </div><!-- /.blog-sidebar -->
+    <div class="w3-twothird">
+	<p></br></p>
+      <h4><b>Projects</b></h4>
+      <p>Loving Vincent </br>
+      <small><i>Developed an automated process that converts movie frames to paintings 
+        frames to output an animated video, using Neural Style transfer, 
+        thus decreasing production costs upto 5000 dollars and saving years of production.</i></small>
+	</p>
+	
+      <p>Deep-Ivy, London: Deep Learning Practioner
+      </br><small><i>Created calculus based libraries and provided essential documentation and instructions
+            for ARM Based systems.
+      </br> August 2022.</i></small></p>
+
+      <p>SRMIST: Undergraduate Researcher (Visual Question and Answer based on 3D Models)</br>
+        <small><i>Worked with Dr Saad Yunus Sait and Dr Athira M. Nambiar</br> Summer 2022.</i></small></p>
+
+      <p> </br> </p>
+
+      <h4>Papers Read</h4>
+	
+      <p>3D Question Answering for Spatial Scene Understanding </br> 
+        <small>Daichi Azuma, Taiki Miyanishi, Shuhei Kurita, Motoaki Kawanabe </br>
+            <a href="https://arxiv.org/abs/2112.10482">PDF</a></small>   
+      </p>
+
+      <p> </br> </p>   
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">We’re here to put a dent in the universe. Otherwise why else even be here?</h1>
+</div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu 
+button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
