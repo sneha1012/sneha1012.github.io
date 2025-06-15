@@ -14,7 +14,7 @@ export const experienceData: Experience[] = [
     title: "Data Science Intern",
     company: "NXP Semiconductors",
     description: "Classifying EMS log-based downtime using fuzzy logic, topic modeling, and GenAI prompts; developed an ingestion pipeline for 8D and Kaizen reports using Python and Dataiku to support analytics at NXP’s fab systems.",
-    Manager: "Ivan Belen",
+    manager: "Ivan Belen",
     companyUrl: "https://www.nxp.com",
   },
   {
