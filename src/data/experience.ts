@@ -10,6 +10,14 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
+    date: "Summer 2025",
+    title: "Data Science Intern",
+    company: "NXP Semiconductors",
+    description: "Classifying EMS log-based downtime using fuzzy logic, topic modeling, and GenAI prompts; developed an ingestion pipeline for 8D and Kaizen reports using Python and Dataiku to support analytics at NXP’s fab systems.",
+    Manager: "Ivan Belen",
+    companyUrl: "https://www.nxp.com",
+  },
+  {
     date: "Spring 2025",
     title: "Research Assistant",
     company: "Columbia Business School",
@@ -21,7 +29,7 @@ export const experienceData: Experience[] = [
     date: "Spring 2025",
     title: "Teaching Assistant",
     company: "Columbia Business School",
-    description: "Facilitated course management for Python for MBAs and Databases & Business Analytics. Led 20+ coding discussions, assisted with SQL grading, and mentored students on data analysis assignments",
+    description: "Facilitated course management for Python for MBAs and Databases & Business Analytics.",
     advisor: "Mattan Griffel",
     companyUrl: "https://www.mattangriffel.com",
   },
